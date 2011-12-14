@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=mate-file-manager-open-terminal
-pkgver=2011.12.01
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="An extension for opening terminals in arbitrary local paths"
 url="http://manny.cluecoder.org/packages/nautilus-open-terminal"
