@@ -6,7 +6,7 @@
 
 	* oc.po: Updated Occitan translation.
 
-2007-12-28  I. Felix <ifelix@svn.mate.org>
+2007-12-28  I. Felix <ifelix@svn.gnome.org>
 
 	* ta.po:  Tamil Translation updated by Thangamani Arul
 	* LINGUAS: Added Tamil (ta) to The List of Languages.
@@ -16,7 +16,7 @@
 	* pt.po: Added Portuguese translation by André Neves
 	<drakferion@gmail.com>.
 
-2007-10-31  Gabor Kelemen  <kelemeng@mate.hu>
+2007-10-31  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Translation updated
 
@@ -28,7 +28,7 @@
 
 	* gl.po: Updated Galician Translation.
 
-2007-10-22  Matej Urbančič <mateju@svn.mate.org>
+2007-10-22  Matej Urbančič <gnomeju@svn.gnome.org>
 
 	* sl.po: Updated Slovenian translation.
 
@@ -36,7 +36,7 @@
 
         * ka.po: Updated Georgian translation.
 
-2007-09-16  Sílvia Miranda <silviam@svn.mate.org>
+2007-09-16  Sílvia Miranda <silviam@svn.gnome.org>
 
 	* ca.po: Updated Catalan translation by Francesc Vilches.
 
@@ -52,7 +52,7 @@
 
 	* fr.po: Updated French translation.
 
-2007-08-25  Jorge Gonzalez  <jorgegonz@svn.mate.org>
+2007-08-25  Jorge Gonzalez  <jorgegonz@svn.gnome.org>
 
 	* es.po: Updated Spanish translation
 
@@ -60,12 +60,12 @@
 
 	* sv.po: Updated Swedish translation.
 
-2007-08-23  Christian Neumair  <chris@mate-de.org>
+2007-08-23  Christian Neumair  <chris@gnome-de.org>
 
 	* POTFILES.in: Added caja-open-terminal.schemas.in.
 	* de.po: Updated German translation.
 
-2007-06-02  Leonardo Ferreira Fontenelle  <leonardof@svn.mate.org>
+2007-06-02  Leonardo Ferreira Fontenelle  <leonardof@svn.gnome.org>
 
 	* pt_BR.po: Updated Brazilian Portuguese translation by Og Maciel
 	<ogmaciel@ubuntu.com> and me, Leonardo Ferreira Fontenelle
@@ -93,7 +93,7 @@
 	* be.po: Added Belarusian Translation
 	by Ihar Hrachyshka <ihar.hrachyshka@gmail.com>
 
-2006-11-28  Priit Laes  <plaes@cvs.mate.org>
+2006-11-28  Priit Laes  <plaes@cvs.gnome.org>
 
 	* et.po: Translation added by Ivar Smolin.
 
@@ -134,7 +134,7 @@
 
 	* dz.po: Added Dzongkha Translation.
 
-2006-08-09  Wouter Bolsterlee  <uws+mate@xs4all.nl>
+2006-08-09  Wouter Bolsterlee  <uws+gnome@xs4all.nl>
 
 	* nl.po: Translation updated by Wouter Bolsterlee.
 
@@ -147,7 +147,7 @@
 
 	* th.po: Added Thai translation.
 
-2006-04-04  Gora Mohanty  <gmohanty@cvs.mate.org>
+2006-04-04  Gora Mohanty  <gmohanty@cvs.gnome.org>
 
 	* or.po: Added Oriya translation.
 
@@ -155,7 +155,7 @@
 
 	* sv.po: Updated Swedish translation.
 
-2006-03-12  Mugurel Tudor  <mugurelu@mate.ro>
+2006-03-12  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	* ro.po: Added Romanian translation by
 	Mircea Mitu <mmitu@bitdefender.com>
@@ -164,11 +164,11 @@
 
 	* eu.po: Added Basque translation.
 
-2005-12-08  Christian Neumair  <chris@mate-de.org>
+2005-12-08  Christian Neumair  <chris@gnome-de.org>
 
 	* ru.po: Added Russian translation by Paul Chavard.
 
-2005-10-07  Takeshi AIHANA <aihana@mate.gr.jp>
+2005-10-07  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -218,12 +218,12 @@
 
 	* uk.po: Added Ukrainian translation.
 
-2005-07-26  Christian Neumair  <chris@mate-de.org>
+2005-07-26  Christian Neumair  <chris@gnome-de.org>
 
 	* pl.po: Added Polish translation by Michał Kastelik
 	<m.kastelik@wp.pl>.
 
-2005-07-05  Gabor Kelemen  <kelemeng@mate.hu>
+2005-07-05  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Hungarian translation updated.
 
@@ -235,7 +235,7 @@
 
 	* sk.po: Updated Slovak translation.
 
-2005-05-30  Christian Neumair  <chris@mate-de.org>
+2005-05-30  Christian Neumair  <chris@gnome-de.org>
 
 	* fr.po: Added French translation by Guillaume Desmottes
 	<cass@skynet.be>.
@@ -257,7 +257,7 @@
 
 	* cs.po: Updated Czech translation.
 
-2005-04-30  Francisco Javier F. Serrador  <serrador@cvs.mate.org>
+2005-04-30  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
 
 	* es.po: Updated Spanish translation.
 
@@ -265,7 +265,7 @@
 
 	* ca.po: Updated Catalan translation.
 
-2005-04-28  Christian Neumair  <chris@mate-de.org>
+2005-04-28  Christian Neumair  <chris@gnome-de.org>
 
 	* it.po: Added Italian translation by Daniele Medri
 	<daniele@medri.org>.
@@ -280,11 +280,11 @@
 
 	* rw.po: Added Kinyarwanda translation.
 
-2005-03-18  Gabor Kelemen  <kelemeng@mate.hu>
+2005-03-18  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Hungarian translation added by Szabolcs Varga.
 
-2005-03-15  Takeshi AIHANA <aihana@mate.gr.jp>
+2005-03-15  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* ja.po: Added Japanese translation.
 
@@ -321,7 +321,7 @@
 
 	* cs.po: Added Czech translation.
 
-2005-02-24  Raphael Higino  <raphaelh@cvs.mate.org>
+2005-02-24  Raphael Higino  <raphaelh@cvs.gnome.org>
 
 	* pt_BR.po: Added Brazilian Portuguese translation.
 
@@ -343,11 +343,11 @@
 	* .cvsignore: Added more entries.
 	* sv.po: Added Swedish translation.
 
-2005-02-23  Francisco Javier F. Serrador  <serrador@cvs.mate.org>
+2005-02-23  Francisco Javier F. Serrador  <serrador@cvs.gnome.org>
 
 	* es.po: Updated Spanish translation.
 
-2005-02-23  Christian Neumair  <chris@mate-de.org>
+2005-02-23  Christian Neumair  <chris@gnome-de.org>
 
 	* de.po: Updated German translation.
 
@@ -355,7 +355,7 @@
 
 	* en_CA.po: Added Canadian English translation.
 
-2005-02-22  Christian Neumair  <chris@mate-de.org>
+2005-02-22  Christian Neumair  <chris@gnome-de.org>
 
 	* de.po: Updated German translation.
 
