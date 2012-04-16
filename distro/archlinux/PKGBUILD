@@ -10,13 +10,13 @@ makedepends=('pkgconfig' 'intltool')
 install=mate-file-manager-open-terminal.install
 options=('!libtool')
 group=('mate-extras')
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
-sha256sums=('e3b71013fe9b038026296d287937370a295305351c044485d4c2442480b173f7')
+source=()
+sha256sums=()
 
 build() {
-	cd "$srcdir/$pkgname"
+	cd "../../../"
 
-	./configure --prefix=/usr || return 1
+	./autogen.sh --prefix=/usr || return 1
 
 	#fix non-standard directory
 	sed -i 's|${prefix}/etc|/etc|' Makefile
@@ -25,7 +25,7 @@ build() {
 }
 
 package() {
-	cd "$srcdir/$pkgname"
+	cd "../../../"
 	make MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 DESTDIR="$pkgdir" install || return 1
 
 	install -m755 -d ${pkgdir}/usr/share/mateconf/schemas
