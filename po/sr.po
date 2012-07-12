@@ -1,36 +1,52 @@
-# Serbian translation of caja-open-terminal
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2005.
-#
-# This file is distributed under the same license as the caja-open-terminal package.
-#
-# Maintainer: Данило Шеган <danilo@gnome.org>
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-open-terminal\n"
-"PO-Revision-Date: 2005-02-25 09:06+0100\n"
-"Last-Translator: Данило Шеган <danilo@gnome.org>\n"
-"Language-Team: Serbian (sr) <gnom@prevod.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 10:32+0200\n"
+"PO-Revision-Date: 2012-07-12 08:36+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: src/caja-open-terminal.c:214
-msgid "Open _Terminal"
-msgstr "Отвори _терминал"
-
-#: src/caja-open-terminal.c:215 src/caja-open-terminal.c:244
+#: ../src/caja-open-terminal.c:404 ../src/caja-open-terminal.c:417
 msgid "Open In _Terminal"
 msgstr "Отвори у _терминалу"
 
-#: src/caja-open-terminal.c:217
-msgid "Open a terminal"
-msgstr "Отвори терминал"
+#: ../src/caja-open-terminal.c:406
+msgid "Open the currently selected folder in a terminal"
+msgstr ""
 
-#: src/caja-open-terminal.c:218
+#: ../src/caja-open-terminal.c:408 ../src/caja-open-terminal.c:418
 msgid "Open the currently open folder in a terminal"
 msgstr "Отвара текући директоријум у терминалу"
 
-#: src/caja-open-terminal.c:245
-msgid "Open the selected folder in a terminal"
-msgstr "Отвори изабрани директоријум у терминалу"
+#: ../src/caja-open-terminal.c:414
+msgid "Open _Terminal"
+msgstr "Отвори _терминал"
+
+#: ../src/caja-open-terminal.c:415
+msgid "Open a terminal"
+msgstr "Отвори терминал"
+
+#: ../caja-open-terminal.schemas.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr ""
+
+#: ../caja-open-terminal.schemas.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr ""

@@ -1,32 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Caja-open-terminal\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2006-12-09 13:41+0300\n"
-"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
-"Language-Team: Belarusian i18n Team <i18n@mova.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 10:32+0200\n"
+"PO-Revision-Date: 2012-07-12 08:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
-#: ../src/caja-open-terminal.c:277
+#: ../src/caja-open-terminal.c:404 ../src/caja-open-terminal.c:417
 msgid "Open In _Terminal"
 msgstr "Адкрыць у _тэрмінале"
 
-#: ../src/caja-open-terminal.c:279
+#: ../src/caja-open-terminal.c:406
 msgid "Open the currently selected folder in a terminal"
 msgstr "Адкрыць выбраную тэчку ў тэрмінале"
 
-#: ../src/caja-open-terminal.c:281
+#: ../src/caja-open-terminal.c:408 ../src/caja-open-terminal.c:418
 msgid "Open the currently open folder in a terminal"
 msgstr "Адкрыць гэтую тэчку ў тэрмінале"
 
-#: ../src/caja-open-terminal.c:286
+#: ../src/caja-open-terminal.c:414
 msgid "Open _Terminal"
 msgstr "Адкрыць _тэрмінал"
 
-#: ../src/caja-open-terminal.c:287
+#: ../src/caja-open-terminal.c:415
 msgid "Open a terminal"
 msgstr "Адкрыць тэрмінал"
 
+#: ../caja-open-terminal.schemas.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr ""
+
+#: ../caja-open-terminal.schemas.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr ""

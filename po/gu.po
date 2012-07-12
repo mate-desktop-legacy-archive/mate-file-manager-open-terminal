@@ -1,39 +1,53 @@
-# translation of caja-open-terminal.HEAD.po to Gujarati
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# 
+# Translators:
 # Ankit Patel <ankit@redhat.com>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-open-terminal.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-11-20 05:14+0100\n"
-"PO-Revision-Date: 2006-11-20 15:37+0530\n"
-"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
-"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-07-12 10:32+0200\n"
+"PO-Revision-Date: 2012-07-12 08:34+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"Language: gu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../src/caja-open-terminal.c:277
+#: ../src/caja-open-terminal.c:404 ../src/caja-open-terminal.c:417
 msgid "Open In _Terminal"
 msgstr "ટર્મિનલમાં ખોલો (_T)"
 
-#: ../src/caja-open-terminal.c:279
+#: ../src/caja-open-terminal.c:406
 msgid "Open the currently selected folder in a terminal"
 msgstr "વર્તમાનમાં પસંદ કરેલ ફોલ્ડર ટર્મિનલમાં ખોલો"
 
-#: ../src/caja-open-terminal.c:281
+#: ../src/caja-open-terminal.c:408 ../src/caja-open-terminal.c:418
 msgid "Open the currently open folder in a terminal"
 msgstr "વર્તમાનમાં ખોલેલ ફોલ્ડર ટર્મિનલમાં ખોલો"
 
-#: ../src/caja-open-terminal.c:286
+#: ../src/caja-open-terminal.c:414
 msgid "Open _Terminal"
 msgstr "ટર્મિનલ ખોલો (_T)"
 
-#: ../src/caja-open-terminal.c:287
+#: ../src/caja-open-terminal.c:415
 msgid "Open a terminal"
 msgstr "ટર્મિનલ ખોલો"
 
+#: ../caja-open-terminal.schemas.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr ""
+
+#: ../caja-open-terminal.schemas.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr ""
