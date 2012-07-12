@@ -1,0 +1,568 @@
+========== ar.po ==========
+# translation of caja-open-terminal.HEAD.ar.po to Arabic
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006.
+
+
+
+
+========== be.po ==========
+
+
+
+
+========== be@latin.po ==========
+# Biełaruski pierakład caja-open-terminal.
+# Copyright (C) 2007 Ihar Hrachyshka
+# This file is distributed under the same license as the caja-open-terminal package.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007.
+# 
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of mate-terminal.
+# Copyright (C) 2005 THE mate-terminal'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the mate-terminal package.
+# Rostislav Raykov <zbrox@i-space.org>, 2005.
+#
+#
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of nautlilus-open-terminal.po to Bengali India
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Runa Bhattacharjee <runabh@gmail.com>, 2006.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation of caja-open-terminal.
+# Copyright © 2005 the caja-open-terminal's copyright holder
+# This file is distributed under the same license as the
+#   caja-open-terminal package.
+#
+# Gil Forcada <gilforcada@guiifi.net>, 2005.
+# Francesc Vilches <francesc.vilches@gmail.com>, 2007.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of caja-open-terminal.
+# Copyright (C) 2005 caja-open-terminal'S COPYRIGHT HOLDER
+# Copyright (C) 2005 Miloslav Trmac <mitr@volny.cz>
+# This file is distributed under the same license as the caja-open-terminal package.
+# Miloslav Trmac <mitr@volny.cz>, 2005.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation of caja-open-terminal.
+# Copyright (C) 2007 Christian Neumair
+# This file is distributed under the same license as the caja-open-terminal package.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2005.
+# Peter Bach <bach.peter@gmail.com>, 2007.
+#
+
+
+
+
+========== de.po ==========
+# German caja-open-terminal translation.
+# Copyright (C) 2004, 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Christian Neumair <chris@mate-de.org>, 2004, 2005.
+
+
+
+
+========== dz.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== el.po ==========
+# Greek translation of PACKAGE.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Stathis Kamperis <eu_kamper@yahoo.gr>, 2005
+# 
+
+
+
+
+========== en_CA.po ==========
+# Canadian English translation for caja-open-terminal
+# Copyright (C) 2005 Adam Weinberger and the MATE Foundation
+# This file is distributed under the same licence as the caja-open-terminal package.
+# Adam Weinberger, 2005.
+#
+#
+
+
+
+
+========== en_GB.po ==========
+# English (British) translation.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Abigail Brady <morwen@evilmagic.org>, Bastien Nocera <hadess@hadess.net>, 2005.
+#
+
+
+
+
+========== es.po ==========
+# traducción de caja-open-terminal al Español
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Francisco Javier F. Serrador <serrador@cvs.mate.org>, 2005.
+# Jorge González <jorgegonz@svn.mate.org>, 2007.
+
+
+
+
+========== et.po ==========
+# Cajae "terminalis avaja" eesti keele tõlge.
+# Estonian translation of Caja-open-terminal.
+#
+# Copyright (C) 2006, The Mate Project.
+# This file is distributed under the same license as the caja-open-terminal
+# package.
+#
+# Ivar Smolin <okul@linux.ee>, 2006.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Iñaki Larrañaga <dooteo@euskalgnu.org>, 2006.
+#
+
+
+
+
+========== fi.po ==========
+# Finnish translations for caja-open-terminal package.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the package.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005.
+#
+
+
+
+
+========== fr.po ==========
+# French translation for caja-open-terminal
+# Copyright (C) 2005-2007, Free Software Foundation, Inc.
+# This file is distributed under the same licence as the caja-open-terminal package.
+#
+# Guillaume Desmottes, 2005.
+# Stéphane Raimbault <stephane.raimbault@free.fr>, 2006-2007.
+#
+
+
+
+
+========== gl.po ==========
+# translation of gl.po to Galego
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005.
+# Ignacio Casal Quinteiro <icq@cvs.mate.org>, 2007.
+
+
+
+
+========== gu.po ==========
+# translation of caja-open-terminal.HEAD.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ankit Patel <ankit@redhat.com>, 2006.
+#
+
+
+
+
+========== he.po ==========
+# translation of caja-open-terminal.HEAD.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Yuval Tanny, 2005.
+#
+
+
+
+
+========== hu.po ==========
+# translation of caja-open-terminal.HEAD.po to Hungarian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005, 2007, Free Software Foundation, Inc.
+#
+# Szabolcs Varga <shirokuma@shirokuma.hu>, 2005.
+# Gabor Kelemen <kelemeng@mate.hu>, 2005, 2007.
+
+
+
+
+========== it.po ==========
+# Italian translation for caja-open-terminal
+# Copyright (C) 2005 Daniele Medri and the MATE Foundation
+# This file is distributed under the same licence as the caja-open-terminal package.
+# Adam Weinberger <adamw@gnome.org>, 2005.
+# 
+# 
+
+
+
+
+========== ja.po ==========
+# caja-open-terminal ja.po.
+# Copyright (C) 2005 the MATE Foundation.
+# This file is distributed under the same license as the 'caja-open-terminal' package.
+# Takeshi AIHANA <aihana@gnome.gr.jp>, 2005.
+#
+
+
+
+
+========== ka.po ==========
+# translation of ka.po to Georgian
+# Vladimer Sichinava <vsichi@gnome.org>, 2006, 2007.
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+
+
+
+
+========== ko.po ==========
+# MATE Korea translation of $caja-open-termial.
+# Copyright (C) 2007 THE caja-open-termial'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the caja-open-termial package.
+# Young-Ho Cha <ganadist@gmail.com>, 2005
+# Namhyung Kim <namhyung@gmail.com>, 2007.
+# 
+# 
+
+
+
+
+========== lt.po ==========
+# Lithuanian translation of caja-open-terminal.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Žygimantas Beručka <zygis@gnome.org>, 2005.
+# 
+# 
+
+
+
+
+========== mk.po ==========
+# English translation of caja-open-terminal.
+# Copyright (C) 2005 THE caja-open-terminal'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the caja-open-terminal package.
+# Арангел Ангов <ufo@linux.net.mk>, 2005.
+# , fuzzy
+# 
+# 
+
+
+
+
+========== ml.po ==========
+# translation of caja-open-terminal.HEAD.ml.po to Malayalam
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ani Peter <apeter@redhat.com>, 2006.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian bokmål translation of caja-open-terminal.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2005-2007.
+#
+
+
+
+
+========== ne.po ==========
+# translation of caja-open-terminal.HEAD.ne.po to Nepali
+# translation of caja-open-terminal.HEAD.po to Nepali
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Pawan Chitrakar <pawan@mpp.org.np>, 2005.
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# Ishwar Sharma <eesha_kaf@yahoo.com>, 2005.
+# Ishwar Sharma <sharmabeeshwar@gmail.com>, 2005.
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
+# Mahesh subedi <submanesh@hotmail.com>, 2006.
+#
+
+
+
+
+========== nl.po ==========
+# Translation of Caja-open-terminal to Dutch
+# (C) 2004 Free Software Foundation, Inc.
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2005
+# Tino Meinen <a.t.meinen@chello.nl>, 2005
+# Wouter Bolsterlee <uws+mate@xs4all.nl>, 2006.
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation for caja-open-terminal
+# Copyright (C) 2005, 2007, Free Software Foundation, Inc.
+# This file is distributed under the same licence as the caja-open-terminal package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+
+
+
+
+========== or.po ==========
+# Oriya translation of caja-open-terminal.HEAD.pot.
+# Copyright (C) 2006, Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
+# $Id: or.po,v 1.1 2006/04/03 19:55:30 gmohanty Exp $
+
+
+
+
+========== pa.po ==========
+# translation of caja-open-terminal.HEAD.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
+#
+
+
+
+
+========== pl.po ==========
+# Translation of Caja-open-terminal to Polish
+# (C) 2004 Free Software Foundation, Inc.
+# Michał Kastelik <m.kastelik@wp.pl>, 2005
+
+
+
+
+========== pt.po ==========
+# caja-open-terminal's Portuguese translation.
+# Copyright © 2007 caja-open-terminal
+# This file is distributed under the same license as the caja-open-terminal package.
+# André Neves <drakferion@gmail.com>, 2007.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of mate-open-terminal.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the mate-open-terminal package.
+# Raphael Higino <raphaelh@uai.com.br>, 2005.
+#
+
+
+
+
+========== ro.po ==========
+# Romanian messages for caja-open-terminal.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# Mircea MITU <mmitu@bitdefender.com>, 2006.
+#
+# $Id: ro.po,v 1.1 2006/03/12 21:12:36 mugurelu Exp $
+#
+
+
+
+
+========== ru.po ==========
+# Russian translation.
+# Copyright (C) 2005 THE caja-open-terminal'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the caja-open-terminal package.
+# Paul Chavard <polo@tchak.net>, 2005.
+# 
+# 
+
+
+
+
+========== rw.po ==========
+# translation of caja-open-terminal to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== sk.po ==========
+# Slovak translations for caja-open-terminal package.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Marcel Telka <marcel@telka.sk>, 2005.
+#
+# $Id: sk.po,v 1.2 2005/06/11 19:02:07 marcel Exp $
+#
+
+
+
+
+========== sl.po ==========
+# Copyright (C) 2005-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+#
+# Matjaž Horvat <m@owca.info>, 2006.
+# Matej Urbančič <matej.urban@gmail.com>, 2007
+#
+
+
+
+
+========== sr.po ==========
+# Serbian translation of caja-open-terminal
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2005.
+#
+# This file is distributed under the same license as the caja-open-terminal package.
+#
+# Maintainer: Данило Шеган <danilo@gnome.org>
+#
+
+
+
+
+========== sr@Latn.po ==========
+# Serbian translation of caja-open-terminal
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2005.
+#
+# This file is distributed under the same license as the caja-open-terminal package.
+#
+# Maintainer: Danilo Šegan <danilo@gnome.org>
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for caja-open-terminal.
+# Copyright (C) 2005, 2006, 2007 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2005, 2006.
+# Daniel Nylander <po@danielnylander.se>, 2007.
+#
+
+
+
+
+========== ta.po ==========
+# Translation of caja-open-terminal_ta.po to TAMIL.
+# Copyright (C) 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# தங்கம் அருண் <thangam.arunx@gmail.com>, 2007.
+#
+
+
+
+
+========== th.po ==========
+# Thai translation for caja-open-terminal
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the caja-open-terminal package.
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2006.
+#
+
+
+
+
+========== tr.po ==========
+# Turkish translation of caja-open-terminal.
+# Copyright (C) 2005
+# This file is distributed under the same license as the PACKAGE package.
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation of caja-open-terminal. 
+# Copyright (C) 2005 Free Software Foundation, Inc. 
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2005 
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for Caja Open Terminal.
+# Copyright © 2005 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2005.
+#
+
+
+
+
+========== zh_CN.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Funda Wang <fundawang@linux.net.cn>, 2005
+#
+
+
+
+
+========== zh_TW.po ==========
+# traditional Chinese translation of caja-open-terminal.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Abel Cheung <maddog@linuxhall.org>, 2005.
+#
+
+
+
+
