@@ -33,7 +33,7 @@
 #include <gtk/gtkicontheme.h>
 #include <gtk/gtkwidget.h>
 #include <gtk/gtkmain.h>
-#include <mateconf/mateconf-client.h>
+
 #include <libmate/mate-desktop-item.h>
 #include <gio/gio.h>
 
@@ -45,6 +45,12 @@
 #include <sys/stat.h>
 
 #define SSH_DEFAULT_PORT 22
+#define COT_SCHEMA "org.mate.apps.caja-open-terminal"
+#define COT_DESKTOP_KEY "desktop-opens-home-dir"
+#define CAJA_SCHEMA "org.mate.caja.preferences"
+#define CAJA_DESKTOP_KEY "desktop-is-home-dir"
+#define TERM_SCHEMA "org.mate.applications-terminal"
+#define TERM_EXEC_KEY "exec"
 
 static void caja_open_terminal_instance_init (CajaOpenTerminal      *cvs);
 static void caja_open_terminal_class_init    (CajaOpenTerminalClass *class);
@@ -127,15 +133,39 @@ lookup_in_data_dirs (const char *basename)
 }
 
 static inline gboolean
-desktop_opens_home_dir (MateConfClient *client)
+desktop_opens_home_dir (void)
 {
-	return mateconf_client_get_bool (client, "/apps/caja-open-terminal/desktop_opens_home_dir", NULL);
+	gboolean result;
+        GSettings* settings;
+
+        settings = g_settings_new (COT_SCHEMA);
+	result = g_settings_get_boolean (settings, COT_DESKTOP_KEY);
+        g_object_unref (settings);
+        return result;
 }
 
 static inline gboolean
-desktop_is_home_dir (MateConfClient *client)
+desktop_is_home_dir (void)
 {
-	return mateconf_client_get_bool (client, "/apps/caja/preferences/desktop_is_home_dir", NULL);
+	gboolean result;
+        GSettings* settings;
+
+        settings = g_settings_new (CAJA_SCHEMA);
+	result = g_settings_get_boolean (settings, CAJA_DESKTOP_KEY);
+        g_object_unref (settings);
+        return result;
+}
+
+static inline gchar*
+default_terminal_application (void)
+{
+	gchar *result;
+        GSettings* settings;
+
+        settings = g_settings_new (TERM_SCHEMA);
+	result = g_settings_get_string (settings, TERM_EXEC_KEY);
+        g_object_unref (settings);
+        return result;
 }
 
 #ifdef HAVE_GLIB_DESKTOP_DIR_API
@@ -156,13 +186,12 @@ parse_sftp_uri (GFile *file, char **host, guint *port, char **user,
 
 	u = strchr(uri, ':');
 	g_assert (u != NULL);
-	u+=2;
+	u += 3;  /* Skip over :// to userid */
 
 	p = strchr (u, '/');
-
 	h = strchr(u, '@');
 
-	if (h && (p == NULL || h < p)) {
+	if (h && ((p == NULL) || (h < p))) {
 		*h='\0';
 		h++;
 	} else {
@@ -254,14 +283,8 @@ open_terminal_callback (CajaMenuItem *item,
 	gchar *dfile;
 	MateDesktopItem *ditem;
 	GdkScreen *screen;
-	static MateConfClient *client;
 
-	client = mateconf_client_get_default ();
-
-	terminal_exec = mateconf_client_get_string (client,
-						 "/desktop/mate/applications/terminal/"
-						 "exec",
-						 NULL);
+	terminal_exec = default_terminal_application();
 
 	if (terminal_exec == NULL || strlen (terminal_exec) == 0) {
 		g_free (terminal_exec);
@@ -280,7 +303,7 @@ open_terminal_callback (CajaMenuItem *item,
 			break;
 
 		case FILE_INFO_DESKTOP:
-			if (desktop_is_home_dir (client) || desktop_opens_home_dir (client)) {
+			if (desktop_is_home_dir () || desktop_opens_home_dir ()) {
 				working_directory = g_strdup (g_get_home_dir ());
 			} else {
 				working_directory = get_desktop_dir ();
@@ -410,7 +433,7 @@ open_terminal_menu_item_new (TerminalFileInfo  terminal_file_info,
 			break;
 
 		case FILE_INFO_DESKTOP:
-			if (desktop_opens_home_dir (mateconf_client_get_default ())) {
+			if (desktop_opens_home_dir ()) {
 				name = _("Open _Terminal");
 				tooltip = _("Open a terminal");
 			} else {
