@@ -7,7 +7,6 @@ INCLUDES =						\
 	$(WARN_CFLAGS)                                  \
 	$(DISABLE_DEPRECATED_CFLAGS)			\
 	$(CAJA_CFLAGS)				\
-	$(MATECONF_CFLAGS)					\
 	$(MATEDESKTOP_CFLAGS)
 
 caja_extensiondir=$(CAJA_EXTENSION_DIR)
@@ -20,4 +19,4 @@ libcaja_open_terminal_la_SOURCES = \
 	open-terminal.c
 
 libcaja_open_terminal_la_LDFLAGS = -module -avoid-version
-libcaja_open_terminal_la_LIBADD  = $(CAJA_LIBS) $(MATEVFS_LIBS) $(MATECONF_LIBS) $(MATEDESKTOP_LIBS)
+libcaja_open_terminal_la_LIBADD  = $(CAJA_LIBS) $(MATEDESKTOP_LIBS)

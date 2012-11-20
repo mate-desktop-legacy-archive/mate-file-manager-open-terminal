@@ -46,8 +46,6 @@ dnl Get caja extensions directory
 CAJA_EXTENSION_DIR=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
 AC_SUBST(CAJA_EXTENSION_DIR)
 
-dnl MateConf
-
 dnl intltool stuff
 AC_PROG_INTLTOOL(0.18)
 dnl AM_WITH_NLS
