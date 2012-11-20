@@ -1,4 +1,4 @@
-gsettings_SCHEMAS = org.mate.apps.caja-open-terminal.gschema.xml
+gsettings_SCHEMAS = org.mate.caja-open-terminal.gschema.xml
 @GSETTINGS_RULES@
 
 SUBDIRS = \
