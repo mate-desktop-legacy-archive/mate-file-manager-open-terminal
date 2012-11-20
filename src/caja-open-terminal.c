@@ -45,7 +45,7 @@
 #include <sys/stat.h>
 
 #define SSH_DEFAULT_PORT 22
-#define COT_SCHEMA "org.mate.apps.caja-open-terminal"
+#define COT_SCHEMA "org.mate.caja-open-terminal"
 #define COT_DESKTOP_KEY "desktop-opens-home-dir"
 #define CAJA_SCHEMA "org.mate.caja.preferences"
 #define CAJA_DESKTOP_KEY "desktop-is-home-dir"
