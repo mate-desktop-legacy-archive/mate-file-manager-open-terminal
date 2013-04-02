@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Michal Herman <szalejot@gmail.com>, 2013.
 # Michał Kastelik <m.kastelik@wp.pl>, 2005.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-07-12 10:32+0200\n"
-"PO-Revision-Date: 2012-07-12 08:35+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-03-18 10:48+0000\n"
+"Last-Translator: szalejot <szalejot@gmail.com>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../src/caja-open-terminal.c:404 ../src/caja-open-terminal.c:417
 msgid "Open In _Terminal"
@@ -42,7 +43,7 @@ msgstr "Otwórz terminal"
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr ""
+msgstr "Przy otwarciu terminala na pulpicie otwierany jest terminal w katalogu domowym uzytkownika"
 
 #: ../caja-open-terminal.schemas.in.h:2
 msgid ""
@@ -50,4 +51,4 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr ""
+msgstr "Przy ustawieniu terminal otwierany na pulpicie będzie otworzony w katalogu domowym użytkownika. W przeciwnym przypadku terminal zostanie otworzony w folderze pulpitu. Zauważ, że opcja ta nie ma zastosowania, jeżeli folder pulpitu jest tożsamy z folderem domowym użytkownika."

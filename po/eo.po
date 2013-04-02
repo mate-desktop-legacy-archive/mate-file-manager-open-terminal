@@ -3,47 +3,46 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ABE Tsunehiko <hallconnen2+transifex@gmail.com>, 2013.
-# Takeshi AIHANA <aihana@gnome.gr.jp>, 2005.
+# Michael Moroni <haikara90@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-07-12 10:32+0200\n"
-"PO-Revision-Date: 2013-03-15 03:39+0000\n"
-"Last-Translator: 読み専(先行量産型) <hallconnen2+transifex@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/MATE/language/ja/)\n"
+"PO-Revision-Date: 2012-08-14 03:04+0000\n"
+"Last-Translator: Michael Moroni <michael.moroni@mailoo.org>\n"
+"Language-Team: Esperanto (http://www.transifex.com/projects/p/MATE/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/caja-open-terminal.c:404 ../src/caja-open-terminal.c:417
 msgid "Open In _Terminal"
-msgstr "端末の中に開く(_T)"
+msgstr "Malfermi en _terminalo"
 
 #: ../src/caja-open-terminal.c:406
 msgid "Open the currently selected folder in a terminal"
-msgstr "端末の中に現在選択しているフォルダを開きます"
+msgstr "Malfermi la aktualan elektitan dosierujon en terminalo"
 
 #: ../src/caja-open-terminal.c:408 ../src/caja-open-terminal.c:418
 msgid "Open the currently open folder in a terminal"
-msgstr "端末の中に現在表示しているフォルダを開きます"
+msgstr "Malfermi la aktualan malfermitan dosierujon en terminalo"
 
 #: ../src/caja-open-terminal.c:414
 msgid "Open _Terminal"
-msgstr "端末を開く(_T)"
+msgstr "Malfermi _terminalon"
 
 #: ../src/caja-open-terminal.c:415
 msgid "Open a terminal"
-msgstr "端末を開きます"
+msgstr "Malfermi terminalon"
 
 #: ../caja-open-terminal.schemas.in.h:1
 msgid ""
 "Whether opening a terminal on the desktop opens a terminal in the home "
 "directory"
-msgstr "デスクトップから端末を呼び出した際にホーム･ディレクトリを開く"
+msgstr ""
 
 #: ../caja-open-terminal.schemas.in.h:2
 msgid ""
@@ -51,4 +50,4 @@ msgid ""
 "in the home directory. Otherwise, it will be opened in the desktop "
 "directory. Note that this key is irrelevant if the desktop directory is "
 "identical to the home directory."
-msgstr "この機能をオンにすると、デスクトップ上で端末を呼び出した際にホーム･ディレクトリを開くようになります。オフにすると、デスクトップを開きます。デスクトップ・ディレクトリにホーム・ディレクトリを指定している場合、この設定は効果がありません。"
+msgstr ""
