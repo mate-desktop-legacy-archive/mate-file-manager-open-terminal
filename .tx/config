@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[MATE.caja-open-terminal]
+file_filter = po/<lang>.po
+source_file = po/caja-open-terminal.pot
+source_lang = en
