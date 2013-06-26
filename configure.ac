@@ -1,12 +1,12 @@
-AC_INIT
+AC_INIT(mate-file-manager-open-terminal, 1.6.0, https://github.com/mate-desktop/mate-file-manager-open-terminal)
 
-PACKAGE=caja-open-terminal
+PACKAGE=mate-file-manager-open-terminal
 VERSION=1.6.0
 
 AC_SUBST(PACKAGE)
 AC_SUBST(VERSION)
 
-AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
+AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS(config.h)
 
 CAJA_REQUIRED=1.1.0
