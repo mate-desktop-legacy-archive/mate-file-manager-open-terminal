@@ -214,11 +214,11 @@ parse_sftp_uri (GFile *file, char **host, guint *port, char **user,
 		h_end = h + strlen(h);
 	}
 
-	*user = strdup(u);
+	*user = g_strdup(u);
 	*port = s == NULL ? 0 : atoi(s); /* FIXME: getservbyname ? */
 	*path = g_uri_unescape_string (p, "/");
 	*h_end = '\0';
-	*host = strdup(h);
+	*host = g_strdup(h);
 
 	g_free (uri);
 }
