@@ -1,4 +1,4 @@
-AC_INIT([mate-file-manager-open-terminal], [1.6.0], [https://github.com/mate-desktop/mate-file-manager-open-terminal])
+AC_INIT([mate-file-manager-open-terminal], [1.6.1], [https://github.com/mate-desktop/mate-file-manager-open-terminal])
 
 AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz])
 
