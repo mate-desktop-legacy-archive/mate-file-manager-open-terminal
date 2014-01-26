@@ -1,13 +1,9 @@
-AC_INIT(mate-file-manager-open-terminal, 1.6.0, https://github.com/mate-desktop/mate-file-manager-open-terminal)
+AC_INIT([mate-file-manager-open-terminal], [1.6.0], [https://github.com/mate-desktop/mate-file-manager-open-terminal])
 
-PACKAGE=mate-file-manager-open-terminal
-VERSION=1.6.0
+AM_INIT_AUTOMAKE([1.9 no-dist-gzip dist-xz])
 
-AC_SUBST(PACKAGE)
-AC_SUBST(VERSION)
-
-AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS(config.h)
+AC_CONFIG_MACRO_DIR([m4])
 
 CAJA_REQUIRED=1.1.0
 EEL_REQUIRED=2.6.0
@@ -42,9 +38,16 @@ AC_SUBST(CAJA_LIBS)
 AC_SUBST(MATEDESKTOP_CFLAGS)
 AC_SUBST(MATEDESKTOP_LIBS)
 
-dnl Get caja extensions directory
-CAJA_EXTENSION_DIR=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
-AC_SUBST(CAJA_EXTENSION_DIR)
+# Get caja extensions directory
+AC_ARG_WITH(cajadir,
+    AS_HELP_STRING([--with-cajadir=DIR],[Installation path for Caja extension @<:@auto@:>@]),
+    [ac_with_cajadir=$withval],
+    [ac_with_cajadir=""])
+if test "${ac_with_cajadir}" = ""; then
+    ac_with_cajadir=`$PKG_CONFIG --variable=extensiondir libcaja-extension`
+fi
+AC_MSG_NOTICE([Installing caja plugins in ${ac_with_cajadir}])
+AC_SUBST([CAJA_EXTENSION_DIR],[${ac_with_cajadir}])
 
 dnl intltool stuff
 AC_PROG_INTLTOOL(0.18)

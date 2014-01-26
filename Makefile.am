@@ -1,3 +1,7 @@
+ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAG}
+
+DISTCHECK_CONFIGURE_FLAGS = --with-cajadir='$${libdir}/caja/extensions-2.0-distcheck'
+
 gsettings_schemas_in_files = org.mate.caja-open-terminal.gschema.xml.in
 gsettings_SCHEMAS = $(gsettings_schemas_in_files:.gschema.xml.in=.gschema.xml)
 
